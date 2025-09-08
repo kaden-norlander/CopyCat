@@ -366,12 +366,14 @@
 
 @media screen and (min-width: 992px) {
 .container-top {
+    display: flex;
+    justify-content: center;
     height: 9.5%;
     max-height: 60px;
 }
 
 .logo-container-stackoverflow {
-    padding-top: 4vh;
+    padding-top: 20vh;
 }
 
 .logo-container-google {
@@ -403,7 +405,7 @@
     margin-left: 38.5%;
     margin-right: 38.5%;
     margin-bottom: 1.5%;
-    height: 35vh;
+    height: 28vh;
 }
 
 .container-bottom {
@@ -413,7 +415,26 @@
 
 .search-bar {
     margin-top: 1%;
-    width: 59.5%;
+    width: 50%;
+}
+
+.username-bar {
+    height: 9%;
+    padding-top: 3%;
+}
+
+.password-box {
+    padding-top: 1.5%;
+    padding-bottom: 6%;
+    height: 9%;
+}
+
+.login-bar {
+    height: 11%;
+}
+
+.line {
+    margin-top: 10%;
 }
 
 .logo-menu {
@@ -503,13 +524,15 @@
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
 .container-top {
-    height: 5%;
+    display: flex;
+    justify-content: left;
+    height: 6%;
 }
 
 .logo-container-stackoverflow {
-    padding-top: 35%;
+    padding-top: 20%;
 }
 
 .logo-container-google {
@@ -541,7 +564,7 @@
     margin-left: 33.5%;
     margin-right: 33.5%;
     margin-bottom: 3.25%;
-    height: 21vh;
+    height: 30vh;
 }
 
 .container-bottom {
@@ -550,12 +573,16 @@
 
 .search-bar {
     margin-top: 1.5%;
-    width: 45%;
+    width: 53%;
 }
 
 .logo-menu {
-    padding-left: 2%;
-    padding-top: 2%;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+}
+
+.logo-stack {
+    padding-right: .5%;
 }
 
 .logo-facebook {
@@ -593,7 +620,7 @@
 }
 
 .login-text {
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 }
@@ -604,11 +631,11 @@
 
 @media (max-width: 768px) {
 .container-top {
-    height: 6%;
+    height: 8%;
 }
 
 .logo-container-stackoverflow {
-    padding-top: 25%;
+    padding-top: 5%;
     padding-bottom: 3%;
 }
 
@@ -641,7 +668,7 @@
     margin-left: 32%;
     margin-right: 32%;
     margin-bottom: 3.25%;
-    height: 25vh;
+    height: 40vh;
 }
 
 .container-bottom {
@@ -740,44 +767,44 @@
 @media (max-width: 600px) {
 
 .container-top {
-    height: 6%;
+    height: 11%;
 }
 
 .logo-container-stackoverflow {
-    padding-top: 40%;
+    padding-top: 10%;
     padding-bottom: 5%;
 }
 
 .logo-container-google {
-    width: 60%;
+    width: 80%;
     height: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
 }
 
 .logo-container-facebook {
-    width: 60%;
+    width: 80%;
     height: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 4%;
 }
 
 .logo-container-github {
-    width: 60%;
+    width: 80%;
     height: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
 }
 
 .container-username {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5.75%;
-    height: 25vh;
+    height: 50vh;
 }
 
 .container-bottom {
