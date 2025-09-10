@@ -804,7 +804,11 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5.75%;
-    height: 50vh;
+    height: 40vh;
+}
+
+.password-box {
+    height: 15%;
 }
 
 .container-bottom {
@@ -833,8 +837,13 @@
     padding-left: 4%;
 }
 
+.logo-stackoverflow {
+    width: 10%;
+    height: auto;
+}
+
 .logo-facebook {
-    padding-top: 5.5%;
+    padding-top: 5%;
 }
 
 .search-icon {
@@ -881,7 +890,7 @@
 
 .sign-in-text-password {
     font-size: 11px;
-    padding-left: 25%;
+    padding-left: 34%;
 }
 
 .login-text {
